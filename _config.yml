@@ -1,4 +1,4 @@
-disqus: ## Your disqus_shortname, e.g. username
+disqus: jacklightChen ## Your disqus_shortname, e.g. username
 uyan: ## Your uyan_id. e.g. 1234567
 livere: ## Your livere data-uid, e.g. MTAyMC8zMDAxOC78NTgz
 changyan: ## Your changyan appid, e.g. cyrALsXc8
@@ -32,10 +32,10 @@ baidu_search: false ## Use Baidu search, true/false.
 swiftype: ## Your swiftype_key, e.g. m7b11ZrsT8Me7gzApciT
 tinysou: ## Your tinysou_key, e.g. 4ac092ad8d749fdc6293
 self_search: false ## Use a jQuery-based local search engine, true/false.
-google_analytics: ## Your Google Analytics tracking id, e.g. UA-42425684-2
-baidu_analytics: ## Your Baidu Analytics tracking id, e.g. 8006843039519956000
+google_analytics: UA-100785110-1 ## Your Google Analytics tracking id, e.g. UA-42425684-2
+baidu_analytics: 5916c60cd703f2b6df32821f2b588dfc ## Your Baidu Analytics tracking id, e.g. 8006843039519956000
 fancybox: true ## If you want to use fancybox please set the value to true.
-show_category_count: false ## If you want to show the count of categories in the sidebar widget please set the value to true.
+show_category_count: true ## If you want to show the count of categories in the sidebar widget please set the value to true.
 toc_number: true ## If you want to add list number to toc please set the value to true.
 shareto: false ## If you want to use the share button please set the value to true, and you must have hexo-helper-qrcode installed.
 busuanzi: false ## If you want to use Busuanzi page views please set the value to true.
@@ -70,25 +70,36 @@ menu:
   - page: about
     directory: about/
     icon: fa-user
-  - page: rss
-    directory: atom.xml
-    icon: fa-rss
+  - page: 简历
+    directory: resume/
+    icon: fa-book
 
 widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts, rencent_comments and links.
+  - avatar
   - search
+  - music
   - category
   - tag
   - recent_posts
-  - recent_comments
   - links
+  - statistic
 
 links:
-  - title: site-name1
-    url: http://www.example1.com/
-  - title: site-name2
-    url: http://www.example2.com/
-  - title: site-name3
-    url: http://www.example3.com/
+  - title: Github
+    url: https://github.com/jacklightChen
+  - title: Weifeng
+    url: http://blog.naiver.me
+  - title: 伦神
+    url: http://blog.csdn.net/oneday_pyf
+  - title: csl
+    url: http://cubercsl.cn
+  - title: "0x4f5da2"
+    url: https://0x4f5da2.github.io
+  - title: handora
+    url: http://blog.handora.me
+  - title: 500kg
+    url: https://500kg.github.io
+    
 
 timeline:
   - num: 1
