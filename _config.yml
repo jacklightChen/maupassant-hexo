@@ -70,16 +70,24 @@ menu:
   - page: about
     directory: about/
     icon: fa-user
+  - page: 留言
+    directory: message/
+    icon: fa-wechat
   - page: 简历
     directory: resume/
     icon: fa-book
+  - page: tags
+    directory: tags/
+    icon: fa-tags
+  - page: 历史
+    directory: timeline/
+    icon: fa-history
 
 widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts, rencent_comments and links.
   - avatar
   - search
   - music
   - category
-  - tag
   - recent_posts
   - links
   - statistic
@@ -103,13 +111,18 @@ links:
 
 timeline:
   - num: 1
-    word: 2014/06/12-Start
+    word: 2016/08 始于csdn
   - num: 2
-    word: 2014/11/29-XXX
+    word: 2017/02 发现hexo 改用腾讯云+hexo
   - num: 3
-    word: 2015/02/18-DDD
+    word: 2017/06 寻找免费的方案 搬迁至Github Pages
   - num: 4
-    word: More
+    word: 2018/01 Github Pages访问速度太慢 搬回腾讯云
+  - num: 4
+    word: 2019/12 搬迁至免费的Netlify，其可与github完美结合
+  - num: 5
+    word: 2019/12 寻找免费的Serverless服务来支持国内disqus
+
 
 # Static files
 js: js
